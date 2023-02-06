@@ -1,0 +1,110 @@
+
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(inti1.jpg);
+    }
+
+    .row {
+        width: 100%;
+        padding: 0px 80px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0px;
+        position: relative;
+        z-index: 1;
+        color: white;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        padding: 10px 18px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 22px;
+        color: rgb(6, 6, 6);
+        text-decoration: none;
+    }
+
+    .navbar ul li a:hover {
+        background-color: rgba(128, 128, 128, 0.)
+    }
+
+    .navbar h1 {
+        color: rgb(9, 8, 8);
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    span{
+        color:crimson;
+    }
+
+    .content {
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content h1 {
+        font-size: 48px;
+        font-weight: 300;
+        font: bold;
+        padding-top: 3%;
+        color: rgb(95, 93, 93);
+    }
+
+    .content p {
+        font-size: 26px;
+
+    }
+
+    .content a {
+        text-decoration: none;
+        margin-top: 20px;
+        font-size: 19px;
+        display: inline-block;
+        letter-spacing: 2px;
+        padding: 12px 20px;       
+         background-color: rgba(0, 0, 0, 0.814);
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .content a:hover {
+        background-color:gray;
+    }
